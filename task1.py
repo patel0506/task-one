@@ -1,4 +1,9 @@
+print("welcome to the pattern generator and number analyzer program")
 while True:
+    print("select any option")
+    print("0. exit")
+    print("1. pattern generator")
+    print("2. number analyzer")
     n = int(input("Enter any option: "))
     match n:
         case 0:
@@ -14,8 +19,8 @@ while True:
                 print("")
 
         case 2:
-            first = int(input("enter start value"))
-            last = int(input("enter last value"))
+            first = int(input("enter start value : "))
+            last = int(input("enter last value : "))
             sum = 0
             for i in range(first, last + 1):
                 if i % 2 == 0:
@@ -24,6 +29,7 @@ while True:
                     print(i, " is odd")
             sum = sum + i
             print("sum of all values is ", sum)
+            print("")
 
         case _:
             print("invalid input")
