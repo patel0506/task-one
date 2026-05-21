@@ -27,8 +27,8 @@ while True:
                     print(i, " is even")
                 else:
                     print(i, " is odd")
-            sum = sum + i
-            print("sum of all values is ", sum)
+                sum = sum + i
+            print("sum of all values is", sum)
             print("")
 
         case _:

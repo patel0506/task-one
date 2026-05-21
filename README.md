@@ -3,6 +3,8 @@
 ## Overview
 This Python program uses a menu-driven approach with `match-case` statements.
 
+![Program Output](output.png)
+
 The program performs:
 1. Star Pattern Printing
 2. Number Analyzer (Odd/Even + Sum)
